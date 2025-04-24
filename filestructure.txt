@@ -1,3 +1,6 @@
+|-- HTML Projects
+    |-- index.html
+    |-- README.md
+    |-- style.css
 |-- index.html
 |-- README.md
-|-- style.css
