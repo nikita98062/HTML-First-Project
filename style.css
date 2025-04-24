@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif ;
+    color: violet;
+    background-color: black;
+    line-height: 1.6;
+}
+header{
+    background-color: royalblue;
+    padding: 1rem 2rem;
+    color: antiquewhite;
+    position: sticky;
+    top: 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-decoration: none;
+    color: wheat;
+}
+.section{
+    padding: 4rem 2rem;
+    text-align: center;
+
+}
+.hero{
+    background-color: linear-gradient(to right,#007bff,#00c6ff);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-content span{
+    color: yellow;
+}
+.btn{
+    background-color: wheat;
+    color: azure;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.skill-grid,.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+.skill-card,.projects-card{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
